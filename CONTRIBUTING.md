@@ -104,3 +104,15 @@ We recommended that your contribution complies with the following guidelines bef
 * No `pre-commit` errors: see the [Jupyter Notebook style](https://github.com/pymc-devs/pymc3/wiki/PyMC3-Jupyter-Notebook-Style-Guide) (and [Python code style](https://github.com/pymc-devs/pymc3/wiki/PyMC3-Python-Code-Style)) page from our Wiki on how to install and run it.
 
 * Indicate how are you aiming to update the notebook (i.e. what is the target end column in the tracker). The pull request template has a template for this.
+
+## Render example notebooks as html website
+Install:
+
+```
+sphinx
+ablog
+myst_nb
+sphinx-panels
+```
+
+then run `sphinx-build examples/ _build/ -b html` from the main folder.
